@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "event_id": "123e4567-e89b-12d3-a456-426614174000",
+    "event_timestamp": "2025-04-03T12:34:56.789Z",
+    "log_source": "Google Workspace",
+    "log_type": "AUTHENTICATION"
+  },
+  "principal": {
+    "user_email": "john.doe@example.com",
+    "user_id": "100234567890123456789",
+    "ip_address": "192.168.1.100"
+  },
+  "target": {
+    "resource_name": "Google Drive",
+    "resource_id": "drive-xyz123"
+  },
+  "event": {
+    "action": "LOGIN_SUCCESS",
+    "status": "SUCCESS",
+    "auth_method": "OAUTH2",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+  },
+  "network": {
+    "client_ip": "192.168.1.100",
+    "geolocation": {
+      "country": "US",
+      "region": "California",
+      "city": "San Francisco"
+    }
+  },
+  "detection": {
+    "threat_level": "LOW",
+    "threat_name": "Unusual Login Location",
+    "rule_id": "rule-987654"
+  }
+}

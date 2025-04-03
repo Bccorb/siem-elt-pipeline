@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2025-04-02T12:30:45Z",
+    "user_id": 12345,
+    "event": "login_attempt",
+    "ip_address": "192.168.1.10",
+    "status": "failed"
+  },
+  {
+    "timestamp": "2025-04-02T12:31:10Z",
+    "user_id": 67890,
+    "event": "file_upload",
+    "file_name": "report.pdf",
+    "file_size": 1048576,
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-02T12:32:20Z",
+    "user_id": 54321,
+    "event": "password_reset",
+    "email": "user@example.com",
+    "status": "success"
+  }
+]

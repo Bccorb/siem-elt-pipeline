@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pandas
+duckdb
+boto3
+prometheus_client
+python-multipart
